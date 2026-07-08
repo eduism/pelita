@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PELITA (Pemetaan Emosi, Minat, dan Talenta) - Asesmen non-kognitif untuk memahami kebutuhan belajar dan emosi setiap siswa secara utuh.">
+  <title>PELITA - Pemetaan Emosi, Minat, dan Talenta | SMP Kartika IV-9 Malang</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <i data-lucide="crown" class="crown-logo"></i>
+        <span class="logo-text">PELITA</span>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#metrics">Aspek</a>
+        <a href="#process">Prosedur</a>
+        <a href="#faq">FAQ</a>
+        <a href="#" class="btn-nav-lms">Akses LMS <i data-lucide="arrow-up-right"></i></a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 1. Hero Section -->
+  <header class="hero">
+    <div class="container hero-container">
+      <div class="hero-content animate-fade-in-up">
+        <div class="hero-badge">
+          <span class="badge-dot"></span> Pemetaan Emosi, Minat, dan Talenta
+        </div>
+        <h1 class="hero-title">Temukan Cahayamu Sekarang,<br>Untuk Masa Depan<br>Yang Gemilang.</h1>
+        <p class="hero-tagline">Setiap siswa punya cahaya yang berbeda. Bukan sekadar dari angka akademik, tapi dari minat, cara belajar, dan perasaan yang sebenarnya.</p>
+        
+        <div class="hero-actions">
+          <a href="#start" class="btn btn-primary">
+            Mulai Asesmen
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            Pelajari (Untuk Orang Tua)
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual animate-fade-in-up" style="animation-delay: 0.2s;">
+        <div class="image-wrapper">
+          <img src="hero-image.png" alt="Ilustrasi Potensi Siswa" class="hero-image">
+        </div>
+        <div class="floating-card top-right">
+          <i data-lucide="bar-chart-2"></i>
+          <span>Analisis Mendalam</span>
+        </div>
+        <div class="floating-card bottom-left">
+          <i data-lucide="heart"></i>
+          <span>Pemahaman Emosional</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Apa itu Asesmen Non-Kognitif? & 3. Kenapa Penting -->
+  <section id="about" class="section bg-zinc">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text animate-on-scroll">
+          <h2 class="section-title">Melampaui<br>Nilai Akademik.</h2>
+          <p class="section-desc">Rapor bisa menunjukkan seberapa baik seorang anak mengerjakan soal, tapi tidak pernah bercerita apakah ia bahagia di sekolah, percaya diri saat berteman, atau sedang menghadapi tekanan yang tidak terlihat. Aspek-aspek inilah yang sering luput, meski sama pentingnya bagi perkembangan anak.</p>
+        </div>
+        
+        <div class="about-cards">
+          <div class="card premium-card animate-on-scroll">
+            <div class="card-icon"><i data-lucide="compass"></i></div>
+            <h3>Apa itu Asesmen Non-Kognitif?</h3>
+            <p>Sebuah pendekatan untuk mengukur aspek psikologis—seperti minat, gaya belajar, dan kondisi emosional. <strong>Tanpa tekanan, tanpa penilaian benar atau salah.</strong></p>
+          </div>
+          
+          <div class="card premium-card animate-on-scroll" style="transition-delay: 0.1s;">
+            <div class="card-icon"><i data-lucide="target"></i></div>
+            <h3>Kenapa Ini Penting?</h3>
+            <ul class="clean-list">
+              <li>Membantu guru memahami siswa secara utuh.</li>
+              <li>Deteksi dini jika siswa butuh dukungan emosional ekstra.</li>
+              <li>Penyesuaian metode mengajar yang lebih presisi.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Apa Saja yang Diukur -->
+  <section id="metrics" class="section">
+    <div class="container">
+      <div class="text-center mb-5 animate-on-scroll">
+        <h2 class="section-title">Dimensi Pemetaan</h2>
+        <p class="section-desc centered">Kami memotret 5 aspek utama untuk mengenali siswa secara menyeluruh.</p>
+      </div>
+      
+      <div class="bento-grid">
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="sparkles" class="bento-icon"></i>
+          <h4>Minat & Bakat</h4>
+          <p>Mendeteksi bidang yang disukai dan menjadi potensi utama siswa di masa depan.</p>
+        </div>
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="eye" class="bento-icon"></i>
+          <h4>Gaya Belajar</h4>
+          <p>Visual, Auditori, atau Kinestetik.</p>
+        </div>
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="users" class="bento-icon"></i>
+          <h4>Sosial-Emosional</h4>
+          <p>Kenyamanan di sekolah dan relasi dengan teman sebaya.</p>
+        </div>
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="smile" class="bento-icon"></i>
+          <h4>Kesejahteraan Psikologis</h4>
+          <p>Mengukur tingkat kebahagiaan, stres, dan kepercayaan diri.</p>
+        </div>
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="flame" class="bento-icon"></i>
+          <h4>Motivasi</h4>
+          <p>Faktor pendorong semangat belajar.</p>
+        </div>
+        <div class="bento-item animate-on-scroll">
+          <i data-lucide="brain" class="bento-icon"></i>
+          <h4>Kecerdasan Majemuk</h4>
+          <p>Mengidentifikasi tipe kecerdasan dominan untuk metode pendekatan yang tepat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Bagaimana Prosesnya -->
+  <section id="process" class="section bg-light">
+    <div class="container">
+      <div class="process-layout">
+        <div class="process-text animate-on-scroll">
+          <h2 class="section-title">Langkah Mudah,<br>Dampak Besar.</h2>
+          <p class="section-desc">Setiap tahap asesmen dijelaskan secara terbuka — mulai dari tujuan pengisian, siapa yang akan membaca jawaban, hingga bagaimana hasilnya digunakan. Tidak ada proses tersembunyi. Orang tua dan siswa berhak tahu persis apa yang terjadi pada setiap jawaban yang diberikan, sehingga rasa aman terbangun sejak awal.</p>
+        </div>
+        <div class="process-timeline">
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-number">01</div>
+            <div class="timeline-content">
+              <h4>Siswa Login Akun</h4>
+              <p>Menggunakan NISN atau kode unik yang diberikan sekolah.</p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-number">02</div>
+            <div class="timeline-content">
+              <h4>Mengisi Kuesioner Santai</h4>
+              <p>Berlangsung sekitar 15-20 menit. Siswa diminta menjawab sejujurnya.</p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-number">03</div>
+            <div class="timeline-content">
+              <h4>Rekapitulasi Otomatis</h4>
+              <p>Data diproses sistem secara tertutup untuk Guru BK & Wali Kelas.</p>
+            </div>
+          </div>
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-number">04</div>
+            <div class="timeline-content">
+              <h4>Pendampingan Personalisasi</h4>
+              <p>Hasil digunakan untuk mendukung proses belajar, <strong>bukan</strong> untuk rapor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Keamanan Data & Privasi -->
+  <section id="privacy" class="section privacy-modern">
+    <div class="container">
+      <div class="privacy-wrapper animate-on-scroll">
+
+        <!-- Header -->
+        <div class="privacy-top">
+          <div class="privacy-badge">
+            <i data-lucide="shield-check"></i>
+            <span>100% Terlindungi</span>
+          </div>
+          <h2 class="privacy-title">Privasi adalah<br><span>Prioritas Kami</span></h2>
+          <p class="privacy-subtitle">Kejujuran membutuhkan rasa aman. Setiap jawaban dijaga dengan kerahasiaan penuh — tidak ada celah, tidak ada pengecualian.</p>
+        </div>
+
+        <!-- Feature Cards -->
+        <div class="privacy-cards">
+          <div class="privacy-feat-card">
+            <div class="privacy-feat-icon">
+              <i data-lucide="lock"></i>
+            </div>
+            <h4>Akses Ketat</h4>
+            <p>Hanya Guru BK &amp; Wali Kelas yang berwenang mengakses laporan hasil asesmen.</p>
+          </div>
+          <div class="privacy-feat-card">
+            <div class="privacy-feat-icon">
+              <i data-lucide="server-off"></i>
+            </div>
+            <h4>Tidak Dibagikan</h4>
+            <p>Data 100% bersifat internal. Tidak pernah diteruskan ke pihak luar manapun.</p>
+          </div>
+          <div class="privacy-feat-card">
+            <div class="privacy-feat-icon">
+              <i data-lucide="file-x"></i>
+            </div>
+            <h4>Tanpa Pengaruh Nilai</h4>
+            <p>Jawaban sama sekali tidak berdampak pada nilai rapor atau evaluasi akademik siswa.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section id="faq" class="section">
+    <div class="container faq-container">
+      <div class="text-center mb-5 animate-on-scroll">
+        <h2 class="section-title">Pertanyaan Umum</h2>
+      </div>
+      
+      <div class="faq-list">
+        <div class="faq-item animate-on-scroll">
+          <h4 class="faq-question">Apakah nilai asesmen ini masuk rapor? <i data-lucide="chevron-down"></i></h4>
+          <div class="faq-answer">
+            <p>Sama sekali tidak. Asesmen ini murni untuk pemetaan kondisi psikologis dan gaya belajar. Tidak ada kaitannya dengan evaluasi akademik.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <h4 class="faq-question">Apa yang terjadi kalau jawaban saya menunjukkan saya sedang tidak baik-baik saja? <i data-lucide="chevron-down"></i></h4>
+          <div class="faq-answer">
+            <p>Justru itu tujuan utama kami. Guru BK akan mengajak diskusi yang santai dan suportif untuk membantu Anda merasa lebih baik dan nyaman di sekolah.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <h4 class="faq-question">Apakah orang tua bisa melihat hasilnya? <i data-lucide="chevron-down"></i></h4>
+          <div class="faq-answer">
+            <p>Ya, namun sebatas rekapitulasi umum. Tujuannya agar sekolah dan orang tua bisa menyelaraskan dukungan. Detail spesifik/jawaban sensitif siswa tetap dijaga kerahasiaannya.</p>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll">
+          <h4 class="faq-question">Berapa lama waktu yang dibutuhkan? <i data-lucide="chevron-down"></i></h4>
+          <div class="faq-answer">
+            <p>Kuesioner dirancang sangat ringkas dan interaktif, umumnya dapat diselesaikan dalam waktu 15 hingga 20 menit saja.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Dukungan & CTA Akhir -->
+  <section class="section cta-section text-center">
+    <div class="container animate-on-scroll">
+      <div class="quote-wrapper">
+        <i data-lucide="quote" class="quote-mark"></i>
+        <p class="quote-text">"Program PELITA memastikan bahwa kesehatan mental dan potensi sejati setiap siswa terfasilitasi dengan optimal."</p>
+        <span class="quote-author">Kepala Sekolah SMP Kartika IV-9</span>
+      </div>
+      
+      <div class="cta-content">
+        <h2 class="cta-title">Siap Mengenali Dirimu?</h2>
+        <a href="#start" class="btn btn-primary btn-large">Mulai Asesmen Sekarang <i data-lucide="arrow-right"></i></a>
+        <div class="cta-contact">
+          <span class="text-muted">Butuh bantuan?</span>
+          <a href="mailto:info@smpkartika49.sch.id"><i data-lucide="mail"></i> Hubungi Guru BK</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-wrapper">
+            <i data-lucide="crown" class="crown-logo"></i>
+            <span class="footer-title">PELITA</span>
+          </div>
+          <p class="footer-desc">Membentuk karakter, menggali potensi, dan menjaga kesejahteraan siswa di SMP Kartika IV-9 Malang.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h5>Eksplorasi</h5>
+          <a href="#about">Tentang Asesmen</a>
+          <a href="#metrics">Dimensi Diukur</a>
+          <a href="#process">Prosedur</a>
+          <a href="#faq">Tanya Jawab</a>
+        </div>
+
+        <div class="footer-contact">
+          <h5>Kontak</h5>
+          <p>Jl. Narotama No. 100 A Kota Malang</p>
+          <p>Telp: 0341 324506</p>
+          <a href="http://www.smpkartika49.sch.id" target="_blank" class="website-link">www.smpkartika49.sch.id</a>
+        </div>
+
+        <div class="footer-lms">
+          <h5>Pembelajaran</h5>
+          <a href="#" class="btn-footer-lms">
+            <i data-lucide="monitor-play"></i> Buka Portal LMS
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 SMP Kartika IV-9 Malang.</p>
+        <div class="legal-links">
+          <a href="#">Kebijakan Privasi Data Siswa</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const isActive = item.classList.contains('active');
+        
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // Scroll Observer for animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.animate-on-scroll, .animate-fade-in-up').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+
+    // Close menu when a nav link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar').classList.add('scrolled');
+      } else {
+        document.getElementById('navbar').classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
